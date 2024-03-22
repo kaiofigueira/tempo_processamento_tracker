@@ -26,7 +26,7 @@ class TempoProcessamentoTrackerConsecutivo(TempoProcessamentoTracker):
         self.adicionar_df(df_data)
         
     def copy(self):
-        # Cria uma nova instância de TempoProcessamentoTrackerIntermitente
+        # Cria uma nova instância de TempoProcessamentoTrackerConsecutivo
         new_instance = TempoProcessamentoTrackerConsecutivo()
         
         # Copia os atributos
