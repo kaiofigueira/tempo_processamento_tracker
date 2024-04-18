@@ -37,7 +37,7 @@ class TempoProcessamentoTracker:
             calcular_percentual_tempo(self, nivel, _id = None): Calcula o percentual de tempo de processamento para um nível e _id específicos.
             calcular_percentual_tempo_todos(self): Calcula o percentual de tempo de processamento para todos os registros do DataFrame.
             exportar_df(self, path): Exporta o DataFrame para um arquivo csv ou xlsx.
-            copy(self, obj): Cria uma cópia do objeto.
+            copy(self): Cria uma cópia do objeto.
     """
 
     inicio: float
