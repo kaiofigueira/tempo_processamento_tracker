@@ -4,7 +4,7 @@ import pandas as pd
 import copy
 import os
 
-from unidade_medida_tempo import UnidadeMedidaTempo
+from src.enums.unidade_medida_tempo import UnidadeMedidaTempo
 
 class TempoProcessamentoTracker:
     """

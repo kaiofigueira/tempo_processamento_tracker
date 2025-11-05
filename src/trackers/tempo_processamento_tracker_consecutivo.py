@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from tempo_processamento_tracker import TempoProcessamentoTracker
+from .tempo_processamento_tracker import TempoProcessamentoTracker
 
 class TempoProcessamentoTrackerConsecutivo(TempoProcessamentoTracker):
     """
