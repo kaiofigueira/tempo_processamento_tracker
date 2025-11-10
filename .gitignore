@@ -1,0 +1,26 @@
+# Arquivos de input usados em testes (planilhas)
+*.xlsx
+*.csv
+
+# Checkpoints do Jupyter Notebook
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+
+# Arquivos de configuração (ex: venv local)
+*.cfg
+
+# Sandbox de testes
+sandbox/
+
+# Arquivos de ambiente/sensíveis
+*.env
+
+# Ambientes virtuais
+venv/
+.venv/
+ENV/
+env/
